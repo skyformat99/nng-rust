@@ -2,9 +2,11 @@ language: rust
 rust:
   - stable
 
-os:
-  - linux
-  - osx
+matrix:
+  include:
+    - os: linux
+      dist: bionic
+    - os: osx
 
 # Need travis full VM otherwise kcov fails
 sudo: required

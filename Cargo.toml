@@ -12,7 +12,6 @@ readme = "README.md"
 edition = "2018"
 
 [badges]
-appveyor = { repository = "jake-ruyi/nng-rust", branch = "master", service = "github" }
 travis-ci = { repository = "jeikabu/nng-rust", branch = "master" }
 
 [features]
